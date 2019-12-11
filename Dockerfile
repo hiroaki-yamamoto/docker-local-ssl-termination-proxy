@@ -1,7 +1,5 @@
 FROM alpine:3.6
 
-LABEL maintainer="esplo <esplo@users.noreply.github.com>"
-
 ENV NGINX_VERSION 1.13.5
 
 RUN apk add --no-cache openssl nginx gettext \
