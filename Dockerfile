@@ -13,6 +13,5 @@ COPY nginx.conf.template /etc/nginx/nginx.conf.template
 COPY entrypoint.sh .
 
 EXPOSE 443
-STOPSIGNAL SIGTERM
 
-ENTRYPOINT sh entrypoint.sh
+ENTRYPOINT entrypoint.sh
